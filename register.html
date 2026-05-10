@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | VisualSkill</title>
+  <link rel="stylesheet" href="css/register.css">
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+
+<div class="bg-glow glow-left"></div>
+<div class="bg-glow glow-right"></div>
+<section class="register-card">
+  <div class="register-left">
+    <img src="asset/robotbaruu.png" class="robot-image">
+  </div>
+  <div class="register-right">
+    <form id="registerForm" class="register-form">
+      <h1>Create Your Account</h1>
+      <p class="subtitle">
+        Join <span>VisualSkill</span> and start your learning journey
+      </p>
+      <label>Full name</label>
+      <div class="input-box">
+        <i class="fa-regular fa-user"></i>
+        <input type="text" id="fullname" placeholder="Miravelle">
+      </div>
+      <label>Email Address</label>
+      <div class="input-box">
+        <i class="fa-regular fa-envelope"></i>
+        <input type="text" id="email" placeholder="Miravelle@gmail.com">
+      </div>
+      <div class="double-input">
+        <div>
+          <label>Username</label>
+          <div class="input-box">
+            <i class="fa-regular fa-user"></i>
+            <input type="text" id="username" placeholder="Miravelle">
+          </div>
+        </div>
+        <div>
+          <label>Day of Birth</label>
+          <div class="input-box">
+            <i class="fa-regular fa-calendar"></i>
+            <input type="date" id="dob">
+          </div>
+        </div>
+      </div>
+      <label>Gender</label>
+      <div class="gender-box">
+        <button type="button" class="gender-btn active">
+          <i class="fa-solid fa-mars"></i>
+          Male
+        </button>
+        <button type="button" class="gender-btn">
+          <i class="fa-solid fa-venus"></i>
+          Female
+        </button>
+        <button type="button" class="gender-btn">
+          <i class="fa-solid fa-users"></i>
+          Other
+        </button>
+      </div>
+      <div class="double-input">
+        <div>
+          <label>Password</label>
+          <div class="input-box">
+            <i class="fa-solid fa-lock"></i>
+            <input
+            type="password"
+            id="password"
+            placeholder="••••••••">
+          </div>
+        </div>
+        <div>
+          <label>Confirm Password</label>
+          <div class="input-box">
+            <i class="fa-solid fa-lock"></i>
+            <input
+            type="password"
+            id="confirmPassword"
+            placeholder="••••••••">
+          </div>
+        </div>
+      </div>
+      <div class="checkbox-box">
+        <input type="checkbox" id="terms">
+        <label for="terms" class="text-text">
+          I agree to the <span> Terms of service </span>and<span> Privacy Policy</span>
+        </label>
+    </div>
+      <p id="errorMessage"></p>
+      <button type="submit" class="register-btn">
+        Register
+      </button>
+      <p class="login-text">
+        Already have account?<a href="login.html">Login</a>
+      </p>
+    </form>
+  </div>
+</section>
+<script src="js/register.js"></script>
+</body>
+</html>

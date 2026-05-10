@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | VisualSkill</title>
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+
+<div class="bg-glow glow-left"></div>
+<div class="bg-glow glow-right"></div>
+<section class="login-card">
+  <div class="login-left">
+    <form id="loginForm" class="login-form">
+      <h1>Welcome Back</h1>
+      <p class="subtitle">
+        Login to continue your learning journey
+      </p>
+      <label>Email Address</label>
+      <div class="input-box">
+        <i class="fa-regular fa-envelope"></i>
+        <input type="text" id="email" placeholder="Miravelle@gmail.com">
+      </div>
+
+      <label>Password</label>
+      <div class="input-box">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" id="password" placeholder="••••••••">
+      </div>
+      <div class="remember-box">
+        <div class="check-wrap">
+          <input type="checkbox" id="remember">
+          <label for="remember" class="remember">
+            Remember me
+          </label>
+        </div>
+        <a href="#">
+          Forgot Password?
+        </a>
+      </div>
+      <p id="errorMessage"></p>
+      <button type="submit" class="login-btn">
+        Login
+      </button>
+      <div class="divider">
+        <span>or</span>
+      </div>
+      <button type="button" class="social-btn">
+        <i class="fa-brands fa-google"></i>
+        Login with Google
+      </button>
+      <button type="button" class="social-btn dark">
+        <i class="fa-brands fa-github"></i>
+        Login with Github
+      </button>
+      <p class="register-text">
+        Don't have an account?
+        <a href="register.html">Register</a>
+      </p>
+    </form>
+  </div>
+
+  <div class="login-right">
+    <img src="asset/robotbaruu.png" class="robot-image">
+  </div>
+</section>
+<script src="js/login.js"></script>
+
+</body>
+</html>
