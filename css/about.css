@@ -191,7 +191,7 @@ a{
 }
 
 .about-card{
-  padding:35px;
+  padding:35px 35px;
   border-radius:28px;
   background:rgba(255,255,255,0.04);
   border:1px solid rgba(0,255,255,0.12);
@@ -210,7 +210,7 @@ a{
 
 .about-card img{
   width:100%;
-  max-width:220px;
+  max-width:170px;
   margin-top:25px;
 }
 
@@ -223,6 +223,11 @@ a{
 
 .mission ul{
   padding-left:20px;
+}
+
+.mission img{
+  width: 100%;
+  max-width: 200px;
 }
 
 .impact-section{
