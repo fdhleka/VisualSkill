@@ -260,7 +260,7 @@ body{
 
 }
 
-@media(max-width:768px){
+@media(max-width:700px){
   .register-right{
     padding:30px;
   }
